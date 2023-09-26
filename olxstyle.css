@@ -1,0 +1,94 @@
+.container{
+    color: black;
+    display: flex;
+    flex-direction: left;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.container .navlocation{
+    border: 2px cyan solid;
+    padding-left: 5px;
+   
+}
+.container .navlocationlist{
+    text-align: center;
+    width: 150px;
+    height: 50px;
+   border: none;
+    background: none;
+    font-size: 18px;
+
+}
+
+.container .navsearchinput{
+    height: 50px;
+    width: 350px;
+    border: none;
+    font-size: 18px;
+ 
+}
+.container .navsearch{
+    border: black 2px solid;
+    padding-right: 10px;
+
+}
+.container .navlanguagelist{
+    width: 120px;
+    height: 50px;
+    background: none;   
+    border: none; 
+    font-size: 20px;
+}
+.container .navlogintext{
+      font-size: 20px;
+}
+.container .navsellbtn{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-top:  4px solid cyan;
+    border-right:  4px solid rgb(10, 132, 231);
+    border-bottom:  4px solid rgb(10, 132, 231);
+    border-left:  4px solid rgb(231, 98, 10);
+}
+.navbar{
+    background-color: rgb(245, 253, 253);
+
+    box-shadow: 
+        inset 0px 11px 8px -10px #CCC,
+        inset 0px -11px 8px -10px #CCC; 
+}
+.navbar2{
+    color: black;
+    display: flex;
+    flex-direction: left;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    /* border: 0.5px solid black; */
+    /* box-shadow: 2px 2px 2px #888888 */
+    border-top: 1px rgb(209, 203, 203) solid;
+    border-bottom: 1px rgb(209, 203, 203) solid;
+    font-size: 15px;
+}
+.navbar2 .navbar2othercategories{
+    gap: 15px ;
+    display: flex;
+    flex-direction: left;
+    text-decoration: none;
+}
+.navbar2othercategoriestags{
+    text-decoration: none;
+    color: black;
+}
+.navbar2othercategoriestags:hover{
+           color: rgb(38, 145, 145);
+}
+.itemheader{
+    font-size: 22px;
+    margin-top: 80px;
+    margin-left: 280px
+}
